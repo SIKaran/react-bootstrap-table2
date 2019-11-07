@@ -26,6 +26,8 @@ import BootstrapTable from 'react-bootstrap-table-next';
 import ToolkitProvider, { Search } from 'react-bootstrap-table2-toolkit';
 import filterFactory, { textFilter } from 'react-bootstrap-table2-filter';
 
+const { SearchBar } = Search;
+
 const columns = [{
   dataField: 'id',
   text: 'Product ID',
